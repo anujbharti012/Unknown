@@ -65,3 +65,4 @@ telethon
 gtts
 cloudscraper
 faker
+pyrate-limiter==2.8.5
