@@ -154,5 +154,6 @@
       "START_IMG": {
       "description": "Telegraph link of the image which will be shown at start command.",
          "required": true,
-         "value": ""
+         "value": "https://graph.org/file/cb65e2e8ea675f4b494af.jpg"
       }
+   }
