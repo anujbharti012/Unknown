@@ -17,7 +17,7 @@
    "addons": [
       {
          "options": {
-            "version": "15"
+            "version": "24"
          },
          "plan": "heroku-postgresql:mini"
       }
@@ -41,12 +41,12 @@
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, Leave this field empty if you don't have one.",
          "required": false,
-         "value": ""
+         "value": "postgresql://Neondb_owner:CUfbBnXYW46u@ep-dry-pond-a560fpvi.us-east-2.aws.neon.tech/Neondb?sslmode=require"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1602509384"
+         "value": "5758713974"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -63,7 +63,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
-         "value": "NAMIKAZECPAN"
+         "value": "APEX_MAINCHAT"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
