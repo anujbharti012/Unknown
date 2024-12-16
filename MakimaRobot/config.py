@@ -15,16 +15,16 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "1480988"
-    API_HASH = "be76b2fd25b50222b0e1eee141d6a259"
-    TOKEN = "5605728947:AAHGZRsBITZF6LY8L4_08pGwvdcMkKpXrCE"
-    OWNER_ID = "5544822530"
-    OWNER_USERNAME = "FULLY_CRUAL_MIND"
-    SUPPORT_CHAT = "KanimangalamKovilakam"
-    JOIN_LOGGER = (-1001767332965)
-    EVENT_LOGS = (-1001767332965)
+    API_ID = "25475489"
+    API_HASH = "3fc2b371f4fbb0166758736414d8be92"
+    TOKEN = "7764287955:AAE0zQiW7YdZouzfj70pxtWG_zp9FsCHAD0"
+    OWNER_ID = "1266240012"
+    OWNER_USERNAME = "UnknownX_9_11"
+    SUPPORT_CHAT = "Dynasty_Chats"
+    JOIN_LOGGER = (-1002256936511)
+    EVENT_LOGS = (-1002209876843)
 
-    SQLALCHEMY_DATABASE_URI = ""
+    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://avnadmin:AVNS_koL8FN7-6j3zzINx3hY@choco-chocoxgithub-f883.i.aivencloud.com:16510/defaultdb?sslmode=require"
     MONGO_DB_URI = "mongodb+srv://Stenzlemaria:Stenzlemaria@cluster0.0ob4dvz.mongodb.net/?retryWrites=true&w=majority"
     LOAD = []
     NO_LOAD = ["rss"]
@@ -60,7 +60,7 @@ class Config(object):
     BL_CHATS = []
     SPAMMERS = None
     ALLOW_CHATS = True
-    START_IMG = ""
+    START_IMG = "https://envs.sh/3VK.jpg"
     HEROKU_API_KEY = None
     HEROKU_APP_NAME = None
     TEMP_DOWNLOAD_DIRECTORY = "./"
